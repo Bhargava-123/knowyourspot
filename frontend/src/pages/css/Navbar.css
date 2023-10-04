@@ -1,0 +1,45 @@
+/* body{
+    position: relative;
+    font-family: 'Poppins';
+    background-image: url(../../images/wallpaper2.png);
+    background-size: cover;
+} */
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    background: rgb(255,255,255,.2);
+    backdrop-filter: blur(40px);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.Logo{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    text-decoration-color: none;
+    
+}
+.Logo:hover{
+    color: white;
+}
+.LogoContainer{
+    align-self: flex-start;
+}
+.MenuContainer{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.menu_item{
+ align-self: flex-end;
+ color: white;
+ text-decoration: none;
+}
+.menu_item:hover{
+    color: white;
+}

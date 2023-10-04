@@ -1,0 +1,38 @@
+.statistics-container{
+    background-color: azure;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.polar-area-and-labels-container{
+    display: flex;
+    flex-direction: row;
+}
+.polar-area-container > *{
+    margin-top: 60px;
+    margin-left: 65vh;
+    height: 68vh;
+    width: 65vh;
+}
+
+.polar-area-chart{
+    position: relative;
+    
+}
+
+.labels-container{
+
+}
+.statistics-title{
+    padding: 15px;
+    font-weight: bolder;
+    font-family: 'Poppins';
+    color: white;
+    text-align: center;
+}
+header{
+    backdrop-filter: invert();
+}
